@@ -1,30 +1,33 @@
-.App {
-  text-align: center;
+@font-face {
+  font-family: 'Eulyoo';
+  src: url("Eulyoo_font_201204/Eulyoo1945-Regular.otf");
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  font-family: 'Eulyoo';
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.black-nav {
+  background-color: #4f626b;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  color: tomato;
+  padding: 20px;
+  font-weight: bold;
+  font-size: 30px;
 }
 
-.App-link {
-  color: #61dafb;
+.list {
+  margin-top: 30px;
+  text-align: left;
+  padding: 0px 20px;
 }
 
+.Modal {
+  margin: 20px;
+  padding: 20px;
+  background-color: #aaa;
+}
+/*# sourceMappingURL=App.css.map */
